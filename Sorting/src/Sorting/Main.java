@@ -21,7 +21,16 @@ public class Main {
 		System.out.println();
 		
 		System.out.println("Sorted Array:");
-		//TODO: sort the array and print out its contents
+		
+		BubbleSort b = new BubbleSort();
+		
+		int[] result = b.bubbleSort(unsortedArray);
+		
+		for(int i = 0; i < result.length; i++){
+			System.out.println(result[i]);
+		}
+		
+		System.out.println();
 		
 		
 	}
